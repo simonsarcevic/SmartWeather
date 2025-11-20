@@ -54,13 +54,15 @@ from HumiditySensor import HumiditySensor
 from TempSensor import TempSensor
 from WindSensor import WindSensor
 
-temp = TempSensor("Temperatur-Sensor", "Celsius", 31)
-wind = WindSensor("Wind-Sensor", "km/h", 45)
-humidity = HumiditySensor("Feuchtigkeits-Sensor", "%", 95)
-
-sensors = [temp, wind, humidity]
-for s in sensors
-    s.showdata()
+class Main:
+    if __name__ == "__main__":
+        temp = TempSensor("Temperatur-Sensor", "Celsius", 31)
+        wind = WindSensor("Wind-Sensor", "km/h", 45)
+        humidity = HumiditySensor("Feuchtigkeits-Sensor", "%", 95)
+        
+        sensors = [temp, wind, humidity]
+        for s in sensors
+            s.showdata()
 ```
 
 ## Klassenbeschreibung
