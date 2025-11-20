@@ -5,9 +5,10 @@ from Sensors.WindSensor import WindSensor
 
 class Main:
     if __name__ == "__main__":
-        temp = TempSensor("temp", "Celsius", 2)
-        wind = WindSensor("wind", "kWh", 2)
-        humidity = HumiditySensor("wet", "%", 2)
+
+        temp = TempSensor("Temperatur-Sensor", "Celsius", 31)
+        wind = WindSensor("Wind-Sensor", "km/h", 45)
+        humidity = HumiditySensor("Feuchtigkeits-Sensor", "%", 95)
 
         sensors = [temp, wind, humidity]
         for s in sensors:
