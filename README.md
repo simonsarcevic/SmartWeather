@@ -90,4 +90,4 @@ Erbt von `Sensor`. Repräsentiert einen Windsensor.
 
 ## Lizenz
 
-Dieses Projekt kann frei verwendet und erweitert werden.
+Ich bsetzte das Patent A, B, C und die 6
