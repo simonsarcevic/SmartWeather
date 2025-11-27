@@ -12,3 +12,8 @@ class WeatherStation:
         for s in self.sensors:
 
             s.showdata()
+
+    def removesensors(self, sensor):
+        self.sensors.remove(sensor)
+        print(f"Sensor removed")
+
