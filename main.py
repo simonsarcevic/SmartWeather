@@ -15,3 +15,4 @@ class Main:
 
         station.addsensor(temp)
         station.getsensors()
+        station.removesensor(temp)
