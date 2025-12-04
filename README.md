@@ -34,6 +34,15 @@ Sensoren.
     │   └── HumiditySensor.py
     │   └── TempSensor.py
     │   └── WindSensor.py
+    |
+    ├── interface
+    │   └── APISource.py
+    │   └── Source.py
+    │   └── TestSource.py
+    |
+    ├── station
+    │   └── WeatherStation.py
+    |
     └── Main.py
 
 ## Installation
