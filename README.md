@@ -35,12 +35,12 @@ Sensoren.
     │   └── TempSensor.py
     │   └── WindSensor.py
     |
-    ├── interface
+    ├── Interface/
     │   └── APISource.py
     │   └── Source.py
     │   └── TestSource.py
     |
-    ├── station
+    ├── Station/
     │   └── WeatherStation.py
     |
     └── Main.py
