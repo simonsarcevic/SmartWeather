@@ -6,3 +6,6 @@ class Sensor:
 
     def showdata(self):
         print(f"{self.__name}: {self.__value} {self.__unit}")
+
+    def getvalue(self):
+        return self.__value

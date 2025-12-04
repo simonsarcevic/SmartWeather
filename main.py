@@ -13,6 +13,10 @@ class Main:
         humidity = HumiditySensor("Feuchtigkeits-Sensor", "%", 95)
         station = WeatherStation()
 
+        sensors = [temp, humidity, wind]
+        for sensor in sensors:
+            sensor.show()
+
         station.addsensor(temp)
         station.getsensors()
         station.removesensor(temp)

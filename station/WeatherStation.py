@@ -1,5 +1,3 @@
-from Sensors.Sensor import Sensor
-
 
 class WeatherStation:
     def __init__(self):
@@ -10,10 +8,8 @@ class WeatherStation:
 
     def getsensors(self):
         for s in self.sensors:
-
             s.showdata()
 
-    def removesensors(self, sensor):
+    def removesensor(self, sensor):
         self.sensors.remove(sensor)
-        print(f"Sensor removed")
-
+        print("Sensor removed")
