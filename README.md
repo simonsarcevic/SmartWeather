@@ -65,13 +65,13 @@ from WindSensor import WindSensor
 
 class Main:
     if __name__ == "__main__":
-        temp = TempSensor("Temperatur-Sensor", "Celsius", 31)
-        wind = WindSensor("Wind-Sensor", "km/h", 45)
-        humidity = HumiditySensor("Feuchtigkeits-Sensor", "%", 95)
+        temp = TempSensor()
+        wind = WindSensor()
+        humidity = HumiditySensor()
         
         sensors = [temp, wind, humidity]
         for s in sensors
-            s.showdata()
+            s.show()
 ```
 
 ## API Verwendung
